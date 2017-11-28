@@ -19,8 +19,7 @@
 $(call inherit-product, device/motorola/potter/full_potter.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/colt/config/common_full_phone.mk)
-$(call inherit-product, vendor/colt/config/colt.mk)
+$(call inherit-product, vendor/xenonhd/config/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -28,7 +27,7 @@ TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
-PRODUCT_NAME := colt_potter
+PRODUCT_NAME := xenonhd_potter
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
@@ -39,4 +38,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="potter-7.0/NPNS25.137-33-11/11:user/release-keys" \
     PRODUCT_NAME="Moto G5 Plus"
 
-COLT_BUILDTYPE=OFFICIAL
+
