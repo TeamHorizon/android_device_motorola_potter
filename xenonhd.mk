@@ -19,7 +19,7 @@
 $(call inherit-product, device/motorola/potter/full_potter.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/xenonhd/config/common.mk)
+$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
