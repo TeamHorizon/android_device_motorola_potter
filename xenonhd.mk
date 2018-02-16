@@ -40,4 +40,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.xenonhd.maintainer="sandyorton7" \
-    ro.xenonhd.donate="https://www.paypal.me/sandyorton7" \ 
+    ro.xenonhd.donate="https://www.paypal.me/sandyorton7" \
